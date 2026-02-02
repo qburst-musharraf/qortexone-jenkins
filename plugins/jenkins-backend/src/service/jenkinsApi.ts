@@ -18,7 +18,7 @@ import type { JenkinsInfo } from './jenkinsInfoProvider';
 import {
   Jenkins,
   type JenkinsBuild,
-} from '@backstage-community/plugin-jenkins-common';
+} from '@qortexone-jenkins/jenkins-common';
 import type {
   BackstageBuild,
   BackstageProject,
@@ -26,7 +26,7 @@ import type {
   ScmDetails,
 } from '../types';
 import { AuthorizeResult } from '@backstage/plugin-permission-common';
-import { jenkinsExecutePermission } from '@backstage-community/plugin-jenkins-common';
+import { jenkinsExecutePermission } from '@qortexone-jenkins/jenkins-common';
 import fetch, { HeaderInit } from 'node-fetch';
 import {
   BackstageCredentials,

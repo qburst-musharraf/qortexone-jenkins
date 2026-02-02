@@ -56,7 +56,7 @@
     "test": "backstage-cli package test"
   },
   "dependencies": {
-    "@backstage-community/plugin-jenkins-common": "workspace:^",
+    "@qortexone-jenkins/jenkins-common": "workspace:^",
     "@backstage/catalog-model": "backstage:^",
     "@backstage/core-compat-api": "backstage:^",
     "@backstage/core-components": "backstage:^",

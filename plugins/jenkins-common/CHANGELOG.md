@@ -1,4 +1,4 @@
-# @backstage-community/plugin-jenkins-common
+# @qortexone-jenkins/jenkins-common
 
 ## 0.15.0
 

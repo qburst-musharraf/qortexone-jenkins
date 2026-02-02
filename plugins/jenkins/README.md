@@ -14,7 +14,7 @@ Website: [https://jenkins.io/](https://jenkins.io/)
 
 ```bash
 # From your Backstage root directory
-yarn --cwd packages/app add @backstage-community/plugin-jenkins
+yarn --cwd packages/app add @qortexone-jenkins/jenkins
 ```
 
 2. Add and configure the [jenkins-backend](../jenkins-backend) plugin according to it's instructions
@@ -29,7 +29,7 @@ import {
   EntityJenkinsContent,
   EntityLatestJenkinsRunCard,
   isJenkinsAvailable,
-} from '@backstage-community/plugin-jenkins';
+} from '@qortexone-jenkins/jenkins';
 
 // You can add the tab to any number of pages, the service page is shown as an
 // example here
@@ -66,7 +66,7 @@ const serviceEntityPage = (
 If you are using Backstage's [new frontend system](https://backstage.io/docs/frontend-system/), simply import `jenkinsPlugin` in your `App.tsx` and add it to your app's `features` array:
 
 ```typescript
-import jenkinsPlugin from '@backstage-community/plugin-jenkins/alpha';
+import jenkinsPlugin from '@qortexone-jenkins/jenkins/alpha';
 
 // ...
 

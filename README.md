@@ -1,6 +1,6 @@
-# [Backstage](https://backstage.io)
+# QortexOne Jenkins
 
-This is your newly scaffolded Backstage App, Good Luck!
+A backstage plugin forked from the jenkins community backstage plugin tailored for QortexOne
 
 ## How to run
 

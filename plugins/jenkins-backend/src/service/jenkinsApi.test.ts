@@ -18,14 +18,14 @@ import { JenkinsApiImpl } from './jenkinsApi';
 import {
   Jenkins,
   type JenkinsBuild,
-} from '@backstage-community/plugin-jenkins-common';
+} from '@qortexone-jenkins/jenkins-common';
 import { JenkinsInfo } from './jenkinsInfoProvider';
 import { JenkinsProject } from '../types';
 import { AuthorizeResult } from '@backstage/plugin-permission-common';
 import fetch, { Response } from 'node-fetch';
 import { mockServices } from '@backstage/backend-test-utils';
 
-jest.mock('@backstage-community/plugin-jenkins-common');
+jest.mock('@qortexone-jenkins/jenkins-common');
 jest.mock('node-fetch');
 const mockedJenkinsClient = {
   job: {

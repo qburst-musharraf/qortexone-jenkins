@@ -71,7 +71,7 @@ import {
   EntityJenkinsContent,
   EntityLatestJenkinsRunCard,
   isJenkinsAvailable,
-} from '@backstage-community/plugin-jenkins';
+} from '@qortexone-jenkins/jenkins';
 
 const techdocsContent = (
   <EntityTechdocsContent>

@@ -12,7 +12,7 @@ This is the backend half of the 2 Jenkins plugins and is responsible for:
 
 ```bash
 # From your Backstage root directory
-yarn --cwd packages/backend add @backstage-community/plugin-jenkins-backend
+yarn --cwd packages/backend add @qortexone-jenkins/jenkins-backend
 ```
 
 In your `packages/backend/src/index.ts` make the following changes:
@@ -21,7 +21,7 @@ In your `packages/backend/src/index.ts` make the following changes:
   import { createBackend } from '@backstage/backend-defaults';
   const backend = createBackend();
   // ... other feature additions
-  backend.add(import('@backstage-community/plugin-jenkins-backend'));
+  backend.add(import('@qortexone-jenkins/jenkins-backend'));
   backend.start();
 ```
 

@@ -33,7 +33,7 @@ import catalogImportPlugin from '@backstage/plugin-catalog-import/alpha';
 import userSettingsPlugin from '@backstage/plugin-user-settings/alpha';
 import { Navigate, Route } from 'react-router';
 
-import jenkinsPlugin from '@backstage-community/plugin-jenkins/alpha';
+import jenkinsPlugin from '@qortexone-jenkins/jenkins/alpha';
 
 const homePageExtension = PageBlueprint.make({
   name: 'home',

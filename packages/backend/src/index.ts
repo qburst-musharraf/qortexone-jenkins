@@ -47,6 +47,6 @@ backend.add(import('@backstage/plugin-search-backend-module-catalog'));
 backend.add(import('@backstage/plugin-search-backend-module-techdocs'));
 
 // Jenkins
-backend.add(import('@backstage-community/plugin-jenkins-backend'));
+backend.add(import('@qortexone-jenkins/jenkins-backend'));
 
 backend.start();

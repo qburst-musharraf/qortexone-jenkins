@@ -17,7 +17,7 @@
 import type {
   JenkinsBuild,
   CommonBuild,
-} from '@backstage-community/plugin-jenkins-common';
+} from '@qortexone-jenkins/jenkins-common';
 
 export interface ScmDetails {
   url?: string;
