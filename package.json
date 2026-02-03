@@ -1,6 +1,6 @@
 {
   "name": "@internal/jenkins",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
   "engines": {
     "node": "22 || 24"
@@ -38,9 +38,9 @@
     "directory": "/"
   },
   "devDependencies": {
-    "@backstage/cli": "backstage:^",
-    "@backstage/e2e-test-utils": "backstage:^",
-    "@backstage/repo-tools": "backstage:^",
+    "@backstage/cli": "0.33.1",
+    "@backstage/e2e-test-utils": "0.1.1",
+    "@backstage/repo-tools": "0.16.3",
     "@changesets/cli": "^2.27.1",
     "knip": "^5.27.4",
     "node-gyp": "^10.0.0",

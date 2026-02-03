@@ -1,6 +1,6 @@
 {
   "name": "@qortexone-jenkins/jenkins-common",
-  "version": "0.15.0",
+  "version": "0.1.0",
   "backstage": {
     "role": "common-library",
     "pluginId": "jenkins",
@@ -38,12 +38,12 @@
     "test": "backstage-cli package test"
   },
   "dependencies": {
-    "@backstage/plugin-catalog-common": "backstage:^",
-    "@backstage/plugin-permission-common": "backstage:^",
+    "@backstage/plugin-catalog-common": "^1.1.5",
+    "@backstage/plugin-permission-common": "^0.9.5",
     "form-data": "^4.0.4",
     "node-fetch": "^2.6.7"
   },
   "devDependencies": {
-    "@backstage/cli": "backstage:^"
+    "@backstage/cli": "^0.33.1"
   }
 }
