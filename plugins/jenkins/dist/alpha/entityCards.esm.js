@@ -14,7 +14,7 @@ const entityLatestJenkinsRunCard = EntityCardBlueprint.makeWithOverrides(
     factory(originalFactory, { config }) {
       return originalFactory({
         filter: isJenkinsAvailable,
-        loader: async () => import('../components/Cards/index.esm.js').then((m) => /* @__PURE__ */ jsx(m.LatestRunCard, { ...config })).catch((e) => /* @__PURE__ */ jsx("div", { children: JSON.stringify(e) }))
+        loader: async () => import('../components/Cards/index.esm.js').then((m) => /* @__PURE__ */ jsx(m.LatestRunCard, { ...config }))
       });
     }
   }

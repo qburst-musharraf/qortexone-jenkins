@@ -19,7 +19,6 @@
     "lint": "backstage-cli package lint"
   },
   "dependencies": {
-    "@qortexone-jenkins/jenkins": "file:../../plugins/jenkins",
     "@backstage/app-defaults": "^1.6.4",
     "@backstage/catalog-model": "^1.7.5",
     "@backstage/cli": "^0.33.1",
@@ -45,6 +44,7 @@
     "@backstage/theme": "^0.6.7",
     "@material-ui/core": "^4.12.2",
     "@material-ui/icons": "^4.9.1",
+    "@qortexone-jenkins/jenkins": "workspace:^",
     "history": "^5.0.0",
     "react": "^18.0.2",
     "react-dom": "^18.0.2",

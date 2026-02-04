@@ -1,0 +1,3 @@
+"use strict";(()=>{(self.webpackChunkapp=self.webpackChunkapp||[]).push([[5061],{85061(c,a,s){s.d(a,{HasResourcesCard:()=>d});var n=s(31085),r=s(97214),o=s(5519),e=s(15669),i=s(58045),l=s(47250);function d(m){const{t}=(0,l.i)(i.W),{variant:u="gridItem",title:p=t("hasResourcesCard.title"),columns:v=e.v9,tableOptions:R={}}=m;return(0,n.jsx)(o.p,{variant:u,title:p,entityKind:"Resource",relationType:r.sA,columns:v,asRenderableEntities:e.eB,emptyMessage:t("hasResourcesCard.emptyMessage"),emptyHelpLink:e.nz,tableOptions:R})}}}]);})();
+
+//# sourceMappingURL=5061.cfc71e15.chunk.js.map

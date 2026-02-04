@@ -29,8 +29,8 @@ declare const _default: _backstage_frontend_plugin_api.OverridableFrontendPlugin
             type: "summary" | "content" | "info" | undefined;
         };
         configInput: {
-            branch?: string | undefined;
             variant?: "flex" | "fullHeight" | "gridItem" | undefined;
+            branch?: string | undefined;
             filter?: _backstage_plugin_catalog_react_alpha.EntityPredicate | undefined;
             type?: "summary" | "content" | "info" | undefined;
         };
@@ -81,7 +81,7 @@ declare const _default: _backstage_frontend_plugin_api.OverridableFrontendPlugin
             defaultTitle?: [Error: "Use the 'title' param instead"] | undefined;
             title: string;
             defaultGroup?: [Error: "Use the 'group' param instead"] | undefined;
-            group?: (string & {}) | "overview" | "documentation" | "development" | "deployment" | "operation" | "observability" | undefined;
+            group?: (string & {}) | "development" | "overview" | "documentation" | "deployment" | "operation" | "observability" | undefined;
             loader: () => Promise<JSX.Element>;
             routeRef?: _backstage_frontend_plugin_api.RouteRef<_backstage_frontend_plugin_api.AnyRouteRefParams> | undefined;
             filter?: _backstage_plugin_catalog_react_alpha.EntityPredicate | ((entity: _backstage_catalog_model.Entity) => boolean) | undefined;

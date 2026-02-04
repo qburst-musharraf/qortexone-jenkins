@@ -33,7 +33,7 @@ export declare const entityJenkinsProjects: import("@backstage/frontend-plugin-a
         defaultTitle?: [Error: "Use the 'title' param instead"] | undefined;
         title: string;
         defaultGroup?: [Error: "Use the 'group' param instead"] | undefined;
-        group?: (string & {}) | "overview" | "documentation" | "development" | "deployment" | "operation" | "observability" | undefined;
+        group?: (string & {}) | "development" | "overview" | "documentation" | "deployment" | "operation" | "observability" | undefined;
         loader: () => Promise<JSX.Element>;
         routeRef?: import("@backstage/frontend-plugin-api").RouteRef<import("@backstage/frontend-plugin-api").AnyRouteRefParams> | undefined;
         filter?: import("@backstage/plugin-catalog-react/alpha").EntityPredicate | ((entity: import("@backstage/catalog-model").Entity) => boolean) | undefined;

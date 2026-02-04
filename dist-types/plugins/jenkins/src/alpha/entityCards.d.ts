@@ -10,8 +10,8 @@ export declare const entityLatestJenkinsRunCard: import("@backstage/frontend-plu
         type: "summary" | "content" | "info" | undefined;
     };
     configInput: {
-        branch?: string | undefined;
         variant?: "flex" | "fullHeight" | "gridItem" | undefined;
+        branch?: string | undefined;
         filter?: import("@backstage/plugin-catalog-react/alpha").EntityPredicate | undefined;
         type?: "summary" | "content" | "info" | undefined;
     };

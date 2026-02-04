@@ -31,10 +31,10 @@
     "postpack": "backstage-cli package postpack"
   },
   "dependencies": {
-    "@qortexone-jenkins/jenkins-common": "file:../jenkins-common",
     "@backstage/backend-plugin-api": "^1.6.2",
     "@backstage/errors": "^1.2.7",
     "@backstage/plugin-scaffolder-node": "^0.12.4",
+    "@qortexone-jenkins/jenkins-common": "workspace:^",
     "cross-fetch": "^4.0.0",
     "jenkins": "^1.1.0"
   },
