@@ -27,7 +27,7 @@ import { useState } from 'react';
 import { Project } from '../../../../api/JenkinsApi';
 import { buildRouteRef, jobRunsRouteRef } from '../../../../plugin';
 import { JenkinsRunStatus } from '../Status';
-import { jenkinsExecutePermission } from '@qortexone-jenkins/jenkins-common';
+import { jenkinsExecutePermission } from '@qortexone/plugin-jenkins-common';
 
 const FailCount = ({ count }: { count: number }): JSX.Element | null => {
   if (count !== 0) {

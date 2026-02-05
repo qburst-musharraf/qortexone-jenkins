@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage-plugin-jenkins-backend
-  title: '@qortexone-jenkins/jenkins-backend'
+  title: '@qortexone/plugin-jenkins-backend'
   description: A Backstage backend plugin that integrates towards Jenkins
 spec:
   lifecycle: experimental

@@ -7,7 +7,7 @@ var pluginPermissionCommon = require('@backstage/plugin-permission-common');
 var catalogModel = require('@backstage/catalog-model');
 var errors = require('@backstage/errors');
 var pluginPermissionNode = require('@backstage/plugin-permission-node');
-var jenkinsCommon = require('@qortexone-jenkins/jenkins-common');
+var pluginJenkinsCommon = require('@qortexone/plugin-jenkins-common');
 
 function _interopDefaultCompat (e) { return e && typeof e === 'object' && 'default' in e ? e : { default: e }; }
 
@@ -60,7 +60,7 @@ class JenkinsBuilder {
     router.use(express__default.default.json());
     router.use(
       pluginPermissionNode.createPermissionIntegrationRouter({
-        permissions: jenkinsCommon.jenkinsPermissions
+        permissions: pluginJenkinsCommon.jenkinsPermissions
       })
     );
     router.get(

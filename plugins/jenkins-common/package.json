@@ -1,13 +1,13 @@
 {
-  "name": "@qortexone-jenkins/jenkins-common",
+  "name": "@qortexone/plugin-jenkins-common",
   "version": "0.1.0",
   "backstage": {
     "role": "common-library",
     "pluginId": "jenkins",
     "pluginPackages": [
-      "@qortexone-jenkins/jenkins",
-      "@qortexone-jenkins/jenkins-backend",
-      "@qortexone-jenkins/jenkins-common"
+      "@qortexone/plugin-jenkins",
+      "@qortexone/plugin-jenkins-backend",
+      "@qortexone/plugin-jenkins-common"
     ]
   },
   "publishConfig": {
@@ -19,7 +19,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/qburst-musharraf/qortexone-jenkins",
-    "directory": "plugins/jenkins-common"
+    "directory": "workspaces/jenkins/plugins/jenkins-common"
   },
   "license": "Apache-2.0",
   "sideEffects": false,
@@ -37,12 +37,12 @@
     "test": "backstage-cli package test"
   },
   "dependencies": {
-    "@backstage/plugin-catalog-common": "^1.1.5",
-    "@backstage/plugin-permission-common": "^0.9.5",
+    "@backstage/plugin-catalog-common": "backstage:^",
+    "@backstage/plugin-permission-common": "backstage:^",
     "form-data": "^4.0.4",
     "node-fetch": "^2.6.7"
   },
   "devDependencies": {
-    "@backstage/cli": "^0.33.1"
+    "@backstage/cli": "backstage:^"
   }
 }

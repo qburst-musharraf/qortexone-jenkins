@@ -23,7 +23,8 @@
     "new": "backstage-cli new --scope @backstage-community",
     "build:api-reports": "yarn build:api-reports:only --tsc",
     "build:api-reports:only": "backstage-repo-tools api-reports -o ae-wrong-input-file-type,ae-undocumented --allow-warnings plugins/jenkins --validate-release-tags",
-    "build:knip-reports": "backstage-repo-tools knip-reports"
+    "build:knip-reports": "backstage-repo-tools knip-reports",
+    "postinstall": "cd ../../ && yarn install"
   },
   "workspaces": {
     "packages": [
@@ -34,12 +35,12 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/qburst-musharraf/qortexone-jenkins",
-    "directory": "/"
+    "directory": "workspaces/jenkins"
   },
   "devDependencies": {
-    "@backstage/cli": "0.33.1",
-    "@backstage/e2e-test-utils": "0.1.1",
-    "@backstage/repo-tools": "0.16.3",
+    "@backstage/cli": "backstage:^",
+    "@backstage/e2e-test-utils": "backstage:^",
+    "@backstage/repo-tools": "backstage:^",
     "@changesets/cli": "^2.27.1",
     "knip": "^5.27.4",
     "node-gyp": "^10.0.0",

@@ -1,4 +1,4 @@
-# @qortexone-jenkins/jenkins-backend
+# @qortexone/plugin-jenkins-backend
 
 ## 0.23.1
 
@@ -15,7 +15,7 @@
 ### Patch Changes
 
 - Updated dependencies [95d7628]
-  - @qortexone-jenkins/jenkins-common@0.15.0
+  - @qortexone/plugin-jenkins-common@0.15.0
 
 ## 0.22.0
 
@@ -26,7 +26,7 @@
 ### Patch Changes
 
 - Updated dependencies [daa9057]
-  - @qortexone-jenkins/jenkins-common@0.14.0
+  - @qortexone/plugin-jenkins-common@0.14.0
 
 ## 0.21.0
 
@@ -37,7 +37,7 @@
 ### Patch Changes
 
 - Updated dependencies [cac3437]
-  - @qortexone-jenkins/jenkins-common@0.13.0
+  - @qortexone/plugin-jenkins-common@0.13.0
 
 ## 0.20.0
 
@@ -48,7 +48,7 @@
 ### Patch Changes
 
 - Updated dependencies [0291a99]
-  - @qortexone-jenkins/jenkins-common@0.12.0
+  - @qortexone/plugin-jenkins-common@0.12.0
 
 ## 0.19.0
 
@@ -59,7 +59,7 @@
 ### Patch Changes
 
 - Updated dependencies [f5374b3]
-  - @qortexone-jenkins/jenkins-common@0.11.0
+  - @qortexone/plugin-jenkins-common@0.11.0
 
 ## 0.18.0
 
@@ -70,7 +70,7 @@
 ### Patch Changes
 
 - Updated dependencies [8d33116]
-  - @qortexone-jenkins/jenkins-common@0.10.0
+  - @qortexone/plugin-jenkins-common@0.10.0
 
 ## 0.17.0
 
@@ -81,7 +81,7 @@
 ### Patch Changes
 
 - Updated dependencies [08c05ce]
-  - @qortexone-jenkins/jenkins-common@0.9.0
+  - @qortexone/plugin-jenkins-common@0.9.0
 
 ## 0.16.0
 
@@ -92,7 +92,7 @@
 ### Patch Changes
 
 - Updated dependencies [a9d0544]
-  - @qortexone-jenkins/jenkins-common@0.8.0
+  - @qortexone/plugin-jenkins-common@0.8.0
 
 ## 0.15.0
 
@@ -103,7 +103,7 @@
 ### Patch Changes
 
 - Updated dependencies [b5a85c1]
-  - @qortexone-jenkins/jenkins-common@0.7.0
+  - @qortexone/plugin-jenkins-common@0.7.0
 
 ## 0.14.0
 
@@ -114,7 +114,7 @@
 ### Patch Changes
 
 - Updated dependencies [f0ef395]
-  - @qortexone-jenkins/jenkins-common@0.6.0
+  - @qortexone/plugin-jenkins-common@0.6.0
 
 ## 0.13.0
 
@@ -128,7 +128,7 @@
 - 319b23a: Updated config schema to indicate that _either_ a `jenkins.instances` array should be provided _or_ `jenkins.baseUrl`, `jenkins.username`, and `jenkins.apiKey`, but never both.
 - 5d074b1: Sanitize user input in router before using values in API
 - Updated dependencies [9c592af]
-  - @qortexone-jenkins/jenkins-common@0.5.0
+  - @qortexone/plugin-jenkins-common@0.5.0
 
 ## 0.12.1
 
@@ -145,7 +145,7 @@
 ### Patch Changes
 
 - Updated dependencies [09c00a5]
-  - @qortexone-jenkins/jenkins-common@0.4.0
+  - @qortexone/plugin-jenkins-common@0.4.0
 
 ## 0.11.0
 
@@ -164,7 +164,7 @@
 ### Patch Changes
 
 - Updated dependencies [07ef31b]
-  - @qortexone-jenkins/jenkins-common@0.3.0
+  - @qortexone/plugin-jenkins-common@0.3.0
 
 ## 0.9.0
 
@@ -181,7 +181,7 @@
 ### Patch Changes
 
 - Updated dependencies [9527e9e]
-  - @qortexone-jenkins/jenkins-common@0.2.0
+  - @qortexone/plugin-jenkins-common@0.2.0
 
 ## 0.7.0
 
@@ -201,7 +201,7 @@
 
 - f090030: Backstage version bump to v1.32.0
 - Updated dependencies [f090030]
-  - @qortexone-jenkins/jenkins-common@0.1.30
+  - @qortexone/plugin-jenkins-common@0.1.30
 
 ## 0.6.1
 
@@ -233,7 +233,7 @@
 
 - aba9f7f: Backstage version bump to v1.30.2
 - Updated dependencies [aba9f7f]
-  - @qortexone-jenkins/jenkins-common@0.1.29
+  - @qortexone/plugin-jenkins-common@0.1.29
 
 ## 0.4.10
 
@@ -253,7 +253,7 @@
 
 - adfc3bb: version:bump to v1.29.1
 - Updated dependencies [adfc3bb]
-  - @qortexone-jenkins/jenkins-common@0.1.28
+  - @qortexone/plugin-jenkins-common@0.1.28
 
 ## 0.4.7
 
@@ -261,7 +261,7 @@
 
 - 7d67a9b: Update to backstage version 1.28.3
 - Updated dependencies [7d67a9b]
-  - @qortexone-jenkins/jenkins-common@0.1.27
+  - @qortexone/plugin-jenkins-common@0.1.27
 
 ## 0.4.6
 
@@ -275,7 +275,7 @@
 
 - 193a2a3: Migrated from the [backstage/backstage](https://github.com/backstage/backstage) monorepo.
 - Updated dependencies [193a2a3]
-  - @qortexone-jenkins/jenkins-common@0.1.26
+  - @qortexone/plugin-jenkins-common@0.1.26
 
 ## 0.4.4
 
@@ -291,7 +291,7 @@
   - @backstage/catalog-model@1.4.5
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
-  - @qortexone-jenkins/jenkins-common@0.1.25
+  - @qortexone/plugin-jenkins-common@0.1.25
   - @backstage/plugin-permission-common@0.7.13
 
 ## 0.4.4-next.1
@@ -307,7 +307,7 @@
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
   - @backstage/plugin-catalog-node@1.11.1-next.1
-  - @qortexone-jenkins/jenkins-common@0.1.25
+  - @qortexone/plugin-jenkins-common@0.1.25
   - @backstage/plugin-permission-common@0.7.13
 
 ## 0.4.4-next.0
@@ -322,7 +322,7 @@
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
   - @backstage/plugin-catalog-node@1.11.1-next.0
-  - @qortexone-jenkins/jenkins-common@0.1.25
+  - @qortexone/plugin-jenkins-common@0.1.25
   - @backstage/plugin-permission-common@0.7.13
   - @backstage/plugin-permission-node@0.7.28-next.0
 
@@ -340,7 +340,7 @@
   - @backstage/catalog-model@1.4.5
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
-  - @qortexone-jenkins/jenkins-common@0.1.25
+  - @qortexone/plugin-jenkins-common@0.1.25
   - @backstage/plugin-permission-common@0.7.13
 
 ## 0.4.2
@@ -356,7 +356,7 @@
   - @backstage/catalog-model@1.4.5
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
-  - @qortexone-jenkins/jenkins-common@0.1.25
+  - @qortexone/plugin-jenkins-common@0.1.25
   - @backstage/plugin-permission-common@0.7.13
 
 ## 0.4.1
@@ -387,7 +387,7 @@
   - @backstage/catalog-client@1.6.1
   - @backstage/plugin-permission-node@0.7.25
   - @backstage/catalog-model@1.4.5
-  - @qortexone-jenkins/jenkins-common@0.1.25
+  - @qortexone/plugin-jenkins-common@0.1.25
 
 ## 0.4.0-next.2
 
@@ -402,7 +402,7 @@
   - @backstage/catalog-model@1.4.5-next.0
   - @backstage/config@1.2.0-next.1
   - @backstage/errors@1.2.4-next.0
-  - @qortexone-jenkins/jenkins-common@0.1.25-next.1
+  - @qortexone/plugin-jenkins-common@0.1.25-next.1
   - @backstage/plugin-permission-common@0.7.13-next.1
   - @backstage/plugin-permission-node@0.7.25-next.2
 
@@ -421,7 +421,7 @@
   - @backstage/catalog-model@1.4.5-next.0
   - @backstage/errors@1.2.4-next.0
   - @backstage/plugin-catalog-node@1.8.0-next.1
-  - @qortexone-jenkins/jenkins-common@0.1.25-next.1
+  - @qortexone/plugin-jenkins-common@0.1.25-next.1
 
 ## 0.4.0-next.0
 
@@ -444,7 +444,7 @@
   - @backstage/catalog-client@1.6.1-next.0
   - @backstage/catalog-model@1.4.5-next.0
   - @backstage/config@1.1.2-next.0
-  - @qortexone-jenkins/jenkins-common@0.1.25-next.0
+  - @qortexone/plugin-jenkins-common@0.1.25-next.0
 
 ## 0.3.4
 
@@ -461,7 +461,7 @@
   - @backstage/plugin-permission-node@0.7.21
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
-  - @qortexone-jenkins/jenkins-common@0.1.24
+  - @qortexone/plugin-jenkins-common@0.1.24
   - @backstage/plugin-permission-common@0.7.12
 
 ## 0.3.4-next.3
@@ -478,7 +478,7 @@
   - @backstage/catalog-model@1.4.4-next.0
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
-  - @qortexone-jenkins/jenkins-common@0.1.24-next.0
+  - @qortexone/plugin-jenkins-common@0.1.24-next.0
   - @backstage/plugin-permission-common@0.7.12
 
 ## 0.3.4-next.2
@@ -496,7 +496,7 @@
   - @backstage/catalog-client@1.6.0-next.1
   - @backstage/catalog-model@1.4.4-next.0
   - @backstage/errors@1.2.3
-  - @qortexone-jenkins/jenkins-common@0.1.24-next.0
+  - @qortexone/plugin-jenkins-common@0.1.24-next.0
   - @backstage/plugin-permission-common@0.7.12
 
 ## 0.3.4-next.1
@@ -512,7 +512,7 @@
   - @backstage/errors@1.2.3
   - @backstage/plugin-auth-node@0.4.4-next.1
   - @backstage/plugin-catalog-node@1.6.2-next.1
-  - @qortexone-jenkins/jenkins-common@0.1.24-next.0
+  - @qortexone/plugin-jenkins-common@0.1.24-next.0
   - @backstage/plugin-permission-common@0.7.12
   - @backstage/plugin-permission-node@0.7.21-next.1
 
@@ -530,7 +530,7 @@
   - @backstage/catalog-model@1.4.3
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
-  - @qortexone-jenkins/jenkins-common@0.1.23
+  - @qortexone/plugin-jenkins-common@0.1.23
   - @backstage/plugin-permission-common@0.7.12
 
 ## 0.3.3
@@ -549,7 +549,7 @@
   - @backstage/catalog-model@1.4.3
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
-  - @qortexone-jenkins/jenkins-common@0.1.23
+  - @qortexone/plugin-jenkins-common@0.1.23
 
 ## 0.3.3-next.2
 
@@ -576,7 +576,7 @@
   - @backstage/catalog-model@1.4.3
   - @backstage/errors@1.2.3
   - @backstage/plugin-catalog-node@1.6.1-next.1
-  - @qortexone-jenkins/jenkins-common@0.1.22
+  - @qortexone/plugin-jenkins-common@0.1.22
   - @backstage/plugin-permission-common@0.7.11
 
 ## 0.3.3-next.0
@@ -593,7 +593,7 @@
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
   - @backstage/plugin-auth-node@0.4.3-next.0
-  - @qortexone-jenkins/jenkins-common@0.1.22
+  - @qortexone/plugin-jenkins-common@0.1.22
   - @backstage/plugin-permission-common@0.7.11
   - @backstage/plugin-permission-node@0.7.20-next.0
 
@@ -612,7 +612,7 @@
   - @backstage/catalog-model@1.4.3
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
-  - @qortexone-jenkins/jenkins-common@0.1.22
+  - @qortexone/plugin-jenkins-common@0.1.22
 
 ## 0.3.2-next.3
 
@@ -627,7 +627,7 @@
   - @backstage/errors@1.2.3
   - @backstage/plugin-auth-node@0.4.2-next.3
   - @backstage/plugin-catalog-node@1.6.0-next.3
-  - @qortexone-jenkins/jenkins-common@0.1.21
+  - @qortexone/plugin-jenkins-common@0.1.21
   - @backstage/plugin-permission-common@0.7.10
   - @backstage/plugin-permission-node@0.7.19-next.3
 
@@ -644,7 +644,7 @@
   - @backstage/catalog-model@1.4.3
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
-  - @qortexone-jenkins/jenkins-common@0.1.21
+  - @qortexone/plugin-jenkins-common@0.1.21
   - @backstage/plugin-permission-common@0.7.10
   - @backstage/plugin-permission-node@0.7.19-next.2
 
@@ -661,7 +661,7 @@
   - @backstage/errors@1.2.3
   - @backstage/plugin-auth-node@0.4.2-next.1
   - @backstage/plugin-catalog-node@1.5.1-next.1
-  - @qortexone-jenkins/jenkins-common@0.1.21
+  - @qortexone/plugin-jenkins-common@0.1.21
   - @backstage/plugin-permission-common@0.7.10
   - @backstage/plugin-permission-node@0.7.19-next.1
 
@@ -679,7 +679,7 @@
   - @backstage/catalog-model@1.4.3
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
-  - @qortexone-jenkins/jenkins-common@0.1.21
+  - @qortexone/plugin-jenkins-common@0.1.21
   - @backstage/plugin-permission-common@0.7.10
 
 ## 0.3.1
@@ -697,7 +697,7 @@
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
   - @backstage/plugin-auth-node@0.4.1
-  - @qortexone-jenkins/jenkins-common@0.1.21
+  - @qortexone/plugin-jenkins-common@0.1.21
   - @backstage/plugin-permission-node@0.7.18
 
 ## 0.3.1-next.2
@@ -725,7 +725,7 @@
   - @backstage/catalog-model@1.4.3
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
-  - @qortexone-jenkins/jenkins-common@0.1.20
+  - @qortexone/plugin-jenkins-common@0.1.20
   - @backstage/plugin-permission-common@0.7.9
 
 ## 0.3.1-next.0
@@ -741,7 +741,7 @@
   - @backstage/errors@1.2.3
   - @backstage/plugin-auth-node@0.4.1-next.0
   - @backstage/plugin-catalog-node@1.4.8-next.0
-  - @qortexone-jenkins/jenkins-common@0.1.20
+  - @qortexone/plugin-jenkins-common@0.1.20
   - @backstage/plugin-permission-common@0.7.9
   - @backstage/plugin-permission-node@0.7.18-next.0
 
@@ -767,7 +767,7 @@
   - @backstage/plugin-permission-node@0.7.17
   - @backstage/catalog-client@1.4.5
   - @backstage/config@1.1.1
-  - @qortexone-jenkins/jenkins-common@0.1.20
+  - @qortexone/plugin-jenkins-common@0.1.20
   - @backstage/plugin-permission-common@0.7.9
 
 ## 0.2.9-next.2
@@ -785,7 +785,7 @@
   - @backstage/backend-plugin-api@0.6.6-next.2
   - @backstage/catalog-client@1.4.5-next.0
   - @backstage/config@1.1.1-next.0
-  - @qortexone-jenkins/jenkins-common@0.1.20-next.0
+  - @qortexone/plugin-jenkins-common@0.1.20-next.0
   - @backstage/plugin-permission-common@0.7.9-next.0
 
 ## 0.2.8-next.1
@@ -800,7 +800,7 @@
   - @backstage/catalog-client@1.4.4
   - @backstage/catalog-model@1.4.2
   - @backstage/errors@1.2.2
-  - @qortexone-jenkins/jenkins-common@0.1.19
+  - @qortexone/plugin-jenkins-common@0.1.19
   - @backstage/plugin-permission-common@0.7.8
 
 ## 0.2.8-next.0
@@ -814,7 +814,7 @@
   - @backstage/catalog-client@1.4.4
   - @backstage/catalog-model@1.4.2
   - @backstage/errors@1.2.2
-  - @qortexone-jenkins/jenkins-common@0.1.19
+  - @qortexone/plugin-jenkins-common@0.1.19
   - @backstage/plugin-permission-common@0.7.8
   - @backstage/plugin-permission-node@0.7.16-next.0
 
@@ -829,7 +829,7 @@
   - @backstage/catalog-client@1.4.4
   - @backstage/catalog-model@1.4.2
   - @backstage/errors@1.2.2
-  - @qortexone-jenkins/jenkins-common@0.1.19
+  - @qortexone/plugin-jenkins-common@0.1.19
   - @backstage/plugin-permission-common@0.7.8
   - @backstage/plugin-permission-node@0.7.14
 
@@ -842,7 +842,7 @@
   - @backstage/catalog-model@1.4.2-next.2
   - @backstage/config@1.1.0-next.2
   - @backstage/errors@1.2.2-next.0
-  - @qortexone-jenkins/jenkins-common@0.1.19-next.2
+  - @qortexone/plugin-jenkins-common@0.1.19-next.2
   - @backstage/plugin-permission-common@0.7.8-next.2
   - @backstage/plugin-permission-node@0.7.14-next.3
   - @backstage/backend-common@0.19.5-next.3
@@ -861,7 +861,7 @@
   - @backstage/plugin-permission-common@0.7.8-next.1
   - @backstage/catalog-client@1.4.4-next.1
   - @backstage/errors@1.2.1
-  - @qortexone-jenkins/jenkins-common@0.1.19-next.1
+  - @qortexone/plugin-jenkins-common@0.1.19-next.1
 
 ## 0.2.6-next.1
 
@@ -876,7 +876,7 @@
   - @backstage/plugin-permission-node@0.7.14-next.1
   - @backstage/catalog-client@1.4.4-next.0
   - @backstage/errors@1.2.1
-  - @qortexone-jenkins/jenkins-common@0.1.19-next.0
+  - @qortexone/plugin-jenkins-common@0.1.19-next.0
 
 ## 0.2.5-next.0
 
@@ -889,7 +889,7 @@
   - @backstage/catalog-model@1.4.1
   - @backstage/config@1.0.8
   - @backstage/errors@1.2.1
-  - @qortexone-jenkins/jenkins-common@0.1.18
+  - @qortexone/plugin-jenkins-common@0.1.18
   - @backstage/plugin-permission-common@0.7.7
   - @backstage/plugin-permission-node@0.7.13-next.0
 
@@ -901,7 +901,7 @@
 - 4b82382ed8c2: Fixed invalid configuration schema. The configuration schema may be more strict as a result.
 - Updated dependencies
   - @backstage/backend-common@0.19.2
-  - @qortexone-jenkins/jenkins-common@0.1.18
+  - @qortexone/plugin-jenkins-common@0.1.18
   - @backstage/plugin-auth-node@0.2.17
   - @backstage/plugin-permission-node@0.7.11
   - @backstage/catalog-client@1.4.3
@@ -927,7 +927,7 @@
 - 4b82382ed8c2: Fixed invalid configuration schema. The configuration schema may be more strict as a result.
 - Updated dependencies
   - @backstage/backend-common@0.19.2-next.1
-  - @qortexone-jenkins/jenkins-common@0.1.18-next.0
+  - @qortexone/plugin-jenkins-common@0.1.18-next.0
   - @backstage/plugin-auth-node@0.2.17-next.1
   - @backstage/plugin-permission-node@0.7.11-next.1
   - @backstage/catalog-client@1.4.3
@@ -947,7 +947,7 @@
   - @backstage/config@1.0.8
   - @backstage/errors@1.2.1
   - @backstage/plugin-auth-node@0.2.17-next.0
-  - @qortexone-jenkins/jenkins-common@0.1.17
+  - @qortexone/plugin-jenkins-common@0.1.17
   - @backstage/plugin-permission-common@0.7.7
   - @backstage/plugin-permission-node@0.7.11-next.0
 
@@ -962,7 +962,7 @@
   - @backstage/catalog-model@1.4.1
   - @backstage/config@1.0.8
   - @backstage/plugin-auth-node@0.2.16
-  - @qortexone-jenkins/jenkins-common@0.1.17
+  - @qortexone/plugin-jenkins-common@0.1.17
   - @backstage/plugin-permission-common@0.7.7
   - @backstage/plugin-permission-node@0.7.10
 
@@ -977,7 +977,7 @@
   - @backstage/catalog-model@1.4.1-next.0
   - @backstage/config@1.0.8
   - @backstage/plugin-auth-node@0.2.16-next.0
-  - @qortexone-jenkins/jenkins-common@0.1.17-next.0
+  - @qortexone/plugin-jenkins-common@0.1.17-next.0
   - @backstage/plugin-permission-common@0.7.7-next.0
   - @backstage/plugin-permission-node@0.7.10-next.0
 
@@ -990,7 +990,7 @@
 - Updated dependencies
   - @backstage/backend-common@0.19.0
   - @backstage/catalog-client@1.4.2
-  - @qortexone-jenkins/jenkins-common@0.1.16
+  - @qortexone/plugin-jenkins-common@0.1.16
   - @backstage/catalog-model@1.4.0
   - @backstage/errors@1.2.0
   - @backstage/plugin-auth-node@0.2.15
@@ -1009,7 +1009,7 @@
   - @backstage/config@1.0.7
   - @backstage/errors@1.2.0-next.0
   - @backstage/plugin-auth-node@0.2.15-next.2
-  - @qortexone-jenkins/jenkins-common@0.1.16-next.2
+  - @qortexone/plugin-jenkins-common@0.1.16-next.2
   - @backstage/plugin-permission-common@0.7.6-next.0
   - @backstage/plugin-permission-node@0.7.9-next.2
 
@@ -1027,7 +1027,7 @@
   - @backstage/catalog-client@1.4.2-next.1
   - @backstage/plugin-permission-common@0.7.6-next.0
   - @backstage/config@1.0.7
-  - @qortexone-jenkins/jenkins-common@0.1.16-next.1
+  - @qortexone/plugin-jenkins-common@0.1.16-next.1
 
 ## 0.2.1-next.0
 
@@ -1036,7 +1036,7 @@
 - 6c244b42cb06: Expose permissions through the metadata endpoint.
 - Updated dependencies
   - @backstage/catalog-client@1.4.2-next.0
-  - @qortexone-jenkins/jenkins-common@0.1.16-next.0
+  - @qortexone/plugin-jenkins-common@0.1.16-next.0
   - @backstage/backend-common@0.18.6-next.0
   - @backstage/config@1.0.7
   - @backstage/catalog-model@1.3.0
@@ -1063,7 +1063,7 @@
   - @backstage/catalog-model@1.3.0
   - @backstage/config@1.0.7
   - @backstage/errors@1.1.5
-  - @qortexone-jenkins/jenkins-common@0.1.15
+  - @qortexone/plugin-jenkins-common@0.1.15
   - @backstage/plugin-permission-common@0.7.5
 
 ## 0.1.35-next.1
@@ -1087,7 +1087,7 @@
   - @backstage/catalog-model@1.3.0
   - @backstage/config@1.0.7
   - @backstage/errors@1.1.5
-  - @qortexone-jenkins/jenkins-common@0.1.15
+  - @qortexone/plugin-jenkins-common@0.1.15
   - @backstage/plugin-permission-common@0.7.5
 
 ## 0.1.34
@@ -1102,7 +1102,7 @@
   - @backstage/plugin-auth-node@0.2.13
   - @backstage/config@1.0.7
   - @backstage/errors@1.1.5
-  - @qortexone-jenkins/jenkins-common@0.1.15
+  - @qortexone/plugin-jenkins-common@0.1.15
 
 ## 0.1.34-next.3
 
@@ -1115,7 +1115,7 @@
   - @backstage/config@1.0.7
   - @backstage/errors@1.1.5
   - @backstage/plugin-auth-node@0.2.13-next.2
-  - @qortexone-jenkins/jenkins-common@0.1.15-next.1
+  - @qortexone/plugin-jenkins-common@0.1.15-next.1
   - @backstage/plugin-permission-common@0.7.5-next.0
 
 ## 0.1.34-next.2
@@ -1129,7 +1129,7 @@
   - @backstage/config@1.0.7
   - @backstage/errors@1.1.5
   - @backstage/plugin-auth-node@0.2.13-next.2
-  - @qortexone-jenkins/jenkins-common@0.1.15-next.0
+  - @qortexone/plugin-jenkins-common@0.1.15-next.0
   - @backstage/plugin-permission-common@0.7.5-next.0
 
 ## 0.1.34-next.1
@@ -1144,7 +1144,7 @@
   - @backstage/config@1.0.7
   - @backstage/errors@1.1.5
   - @backstage/plugin-auth-node@0.2.13-next.1
-  - @qortexone-jenkins/jenkins-common@0.1.15-next.0
+  - @qortexone/plugin-jenkins-common@0.1.15-next.0
 
 ## 0.1.34-next.0
 
@@ -1157,7 +1157,7 @@
   - @backstage/catalog-model@1.2.1
   - @backstage/errors@1.1.5
   - @backstage/plugin-auth-node@0.2.13-next.0
-  - @qortexone-jenkins/jenkins-common@0.1.14
+  - @qortexone/plugin-jenkins-common@0.1.14
   - @backstage/plugin-permission-common@0.7.4
 
 ## 0.1.33
@@ -1171,7 +1171,7 @@
   - @backstage/backend-common@0.18.3
   - @backstage/errors@1.1.5
   - @backstage/catalog-model@1.2.1
-  - @qortexone-jenkins/jenkins-common@0.1.14
+  - @qortexone/plugin-jenkins-common@0.1.14
   - @backstage/plugin-permission-common@0.7.4
   - @backstage/config@1.0.7
 
@@ -1197,7 +1197,7 @@
   - @backstage/plugin-permission-common@0.7.4-next.0
   - @backstage/config@1.0.7-next.0
   - @backstage/catalog-model@1.2.1-next.1
-  - @qortexone-jenkins/jenkins-common@0.1.14-next.1
+  - @qortexone/plugin-jenkins-common@0.1.14-next.1
 
 ## 0.1.33-next.0
 
@@ -1207,7 +1207,7 @@
   - @backstage/catalog-client@1.4.0-next.0
   - @backstage/backend-common@0.18.3-next.0
   - @backstage/catalog-model@1.2.1-next.0
-  - @qortexone-jenkins/jenkins-common@0.1.14-next.0
+  - @qortexone/plugin-jenkins-common@0.1.14-next.0
   - @backstage/config@1.0.6
   - @backstage/errors@1.1.4
   - @backstage/plugin-auth-node@0.2.12-next.0
@@ -1224,7 +1224,7 @@
   - @backstage/config@1.0.6
   - @backstage/errors@1.1.4
   - @backstage/plugin-auth-node@0.2.11
-  - @qortexone-jenkins/jenkins-common@0.1.13
+  - @qortexone/plugin-jenkins-common@0.1.13
   - @backstage/plugin-permission-common@0.7.3
 
 ## 0.1.32-next.2
@@ -1238,7 +1238,7 @@
   - @backstage/catalog-client@1.3.1-next.1
   - @backstage/config@1.0.6
   - @backstage/errors@1.1.4
-  - @qortexone-jenkins/jenkins-common@0.1.13-next.1
+  - @qortexone/plugin-jenkins-common@0.1.13-next.1
   - @backstage/plugin-permission-common@0.7.3
 
 ## 0.1.32-next.1
@@ -1252,7 +1252,7 @@
   - @backstage/config@1.0.6
   - @backstage/errors@1.1.4
   - @backstage/plugin-auth-node@0.2.11-next.1
-  - @qortexone-jenkins/jenkins-common@0.1.13-next.0
+  - @qortexone/plugin-jenkins-common@0.1.13-next.0
   - @backstage/plugin-permission-common@0.7.3
 
 ## 0.1.32-next.0
@@ -1264,7 +1264,7 @@
   - @backstage/backend-common@0.18.2-next.0
   - @backstage/catalog-client@1.3.1-next.0
   - @backstage/plugin-auth-node@0.2.11-next.0
-  - @qortexone-jenkins/jenkins-common@0.1.13-next.0
+  - @qortexone/plugin-jenkins-common@0.1.13-next.0
 
 ## 0.1.30
 
@@ -1277,7 +1277,7 @@
   - @backstage/config@1.0.6
   - @backstage/errors@1.1.4
   - @backstage/plugin-auth-node@0.2.9
-  - @qortexone-jenkins/jenkins-common@0.1.12
+  - @qortexone/plugin-jenkins-common@0.1.12
   - @backstage/plugin-permission-common@0.7.3
 
 ## 0.1.30-next.2
@@ -1291,7 +1291,7 @@
   - @backstage/catalog-model@1.1.5-next.1
   - @backstage/config@1.0.6-next.0
   - @backstage/errors@1.1.4
-  - @qortexone-jenkins/jenkins-common@0.1.12-next.1
+  - @qortexone/plugin-jenkins-common@0.1.12-next.1
   - @backstage/plugin-permission-common@0.7.3-next.0
 
 ## 0.1.30-next.1
@@ -1305,7 +1305,7 @@
   - @backstage/catalog-model@1.1.5-next.1
   - @backstage/errors@1.1.4
   - @backstage/plugin-auth-node@0.2.9-next.0
-  - @qortexone-jenkins/jenkins-common@0.1.12-next.1
+  - @qortexone/plugin-jenkins-common@0.1.12-next.1
   - @backstage/plugin-permission-common@0.7.3-next.0
 
 ## 0.1.30-next.0
@@ -1319,7 +1319,7 @@
   - @backstage/config@1.0.5
   - @backstage/errors@1.1.4
   - @backstage/plugin-auth-node@0.2.8
-  - @qortexone-jenkins/jenkins-common@0.1.12-next.0
+  - @qortexone/plugin-jenkins-common@0.1.12-next.0
   - @backstage/plugin-permission-common@0.7.2
 
 ## 0.1.29
@@ -1337,7 +1337,7 @@
   - @backstage/plugin-auth-node@0.2.8
   - @backstage/catalog-model@1.1.4
   - @backstage/config@1.0.5
-  - @qortexone-jenkins/jenkins-common@0.1.11
+  - @qortexone/plugin-jenkins-common@0.1.11
 
 ## 0.1.29-next.3
 
@@ -1351,7 +1351,7 @@
   - @backstage/config@1.0.5-next.1
   - @backstage/errors@1.1.4-next.1
   - @backstage/plugin-auth-node@0.2.8-next.3
-  - @qortexone-jenkins/jenkins-common@0.1.11-next.3
+  - @qortexone/plugin-jenkins-common@0.1.11-next.3
 
 ## 0.1.29-next.2
 
@@ -1364,7 +1364,7 @@
   - @backstage/catalog-model@1.1.4-next.1
   - @backstage/config@1.0.5-next.1
   - @backstage/errors@1.1.4-next.1
-  - @qortexone-jenkins/jenkins-common@0.1.11-next.2
+  - @qortexone/plugin-jenkins-common@0.1.11-next.2
   - @backstage/plugin-permission-common@0.7.2-next.1
 
 ## 0.1.29-next.1
@@ -1379,7 +1379,7 @@
   - @backstage/catalog-client@1.2.0-next.1
   - @backstage/catalog-model@1.1.4-next.1
   - @backstage/errors@1.1.4-next.1
-  - @qortexone-jenkins/jenkins-common@0.1.11-next.1
+  - @qortexone/plugin-jenkins-common@0.1.11-next.1
   - @backstage/plugin-permission-common@0.7.2-next.1
 
 ## 0.1.29-next.0
@@ -1395,7 +1395,7 @@
   - @backstage/catalog-model@1.1.4-next.0
   - @backstage/config@1.0.5-next.0
   - @backstage/errors@1.1.4-next.0
-  - @qortexone-jenkins/jenkins-common@0.1.11-next.0
+  - @qortexone/plugin-jenkins-common@0.1.11-next.0
 
 ## 0.1.28
 
@@ -1409,7 +1409,7 @@
   - @backstage/catalog-client@1.1.2
   - @backstage/config@1.0.4
   - @backstage/errors@1.1.3
-  - @qortexone-jenkins/jenkins-common@0.1.10
+  - @qortexone/plugin-jenkins-common@0.1.10
 
 ## 0.1.28-next.1
 
@@ -1422,7 +1422,7 @@
   - @backstage/catalog-model@1.1.3-next.0
   - @backstage/config@1.0.4-next.0
   - @backstage/errors@1.1.3-next.0
-  - @qortexone-jenkins/jenkins-common@0.1.10-next.0
+  - @qortexone/plugin-jenkins-common@0.1.10-next.0
   - @backstage/plugin-permission-common@0.7.1-next.0
 
 ## 0.1.28-next.0
@@ -1437,7 +1437,7 @@
   - @backstage/catalog-client@1.1.2-next.0
   - @backstage/config@1.0.4-next.0
   - @backstage/errors@1.1.3-next.0
-  - @qortexone-jenkins/jenkins-common@0.1.10-next.0
+  - @qortexone/plugin-jenkins-common@0.1.10-next.0
 
 ## 0.1.27
 
@@ -1452,7 +1452,7 @@
   - @backstage/catalog-client@1.1.1
   - @backstage/config@1.0.3
   - @backstage/errors@1.1.2
-  - @qortexone-jenkins/jenkins-common@0.1.9
+  - @qortexone/plugin-jenkins-common@0.1.9
 
 ## 0.1.27-next.2
 
@@ -1461,7 +1461,7 @@
 - Updated dependencies
   - @backstage/backend-common@0.15.2-next.2
   - @backstage/plugin-permission-common@0.7.0-next.2
-  - @qortexone-jenkins/jenkins-common@0.1.9-next.2
+  - @qortexone/plugin-jenkins-common@0.1.9-next.2
   - @backstage/plugin-auth-node@0.2.6-next.2
   - @backstage/catalog-client@1.1.1-next.2
   - @backstage/catalog-model@1.1.2-next.2
@@ -1479,7 +1479,7 @@
   - @backstage/config@1.0.3-next.1
   - @backstage/errors@1.1.2-next.1
   - @backstage/plugin-auth-node@0.2.6-next.1
-  - @qortexone-jenkins/jenkins-common@0.1.9-next.1
+  - @qortexone/plugin-jenkins-common@0.1.9-next.1
   - @backstage/plugin-permission-common@0.6.5-next.1
 
 ## 0.1.27-next.0
@@ -1494,7 +1494,7 @@
   - @backstage/plugin-auth-node@0.2.6-next.0
   - @backstage/config@1.0.3-next.0
   - @backstage/errors@1.1.2-next.0
-  - @qortexone-jenkins/jenkins-common@0.1.9-next.0
+  - @qortexone/plugin-jenkins-common@0.1.9-next.0
   - @backstage/plugin-permission-common@0.6.5-next.0
 
 ## 0.1.26
@@ -1518,7 +1518,7 @@
   - @backstage/config@1.0.2
   - @backstage/errors@1.1.1
   - @backstage/plugin-permission-common@0.6.4
-  - @qortexone-jenkins/jenkins-common@0.1.8
+  - @qortexone/plugin-jenkins-common@0.1.8
 
 ## 0.1.26-next.3
 
@@ -1566,7 +1566,7 @@
   - @backstage/catalog-client@1.0.5-next.0
   - @backstage/plugin-auth-node@0.2.5-next.0
   - @backstage/plugin-permission-common@0.6.4-next.0
-  - @qortexone-jenkins/jenkins-common@0.1.8-next.0
+  - @qortexone/plugin-jenkins-common@0.1.8-next.0
 
 ## 0.1.25
 
@@ -1575,7 +1575,7 @@
 - Updated dependencies
   - @backstage/backend-common@0.15.0
   - @backstage/plugin-auth-node@0.2.4
-  - @qortexone-jenkins/jenkins-common@0.1.7
+  - @qortexone/plugin-jenkins-common@0.1.7
 
 ## 0.1.25-next.1
 
@@ -1583,7 +1583,7 @@
 
 - Updated dependencies
   - @backstage/backend-common@0.15.0-next.1
-  - @qortexone-jenkins/jenkins-common@0.1.7-next.0
+  - @qortexone/plugin-jenkins-common@0.1.7-next.0
 
 ## 0.1.25-next.0
 
@@ -1607,7 +1607,7 @@
   - @backstage/plugin-auth-node@0.2.3
   - @backstage/plugin-permission-common@0.6.3
   - @backstage/errors@1.1.0
-  - @qortexone-jenkins/jenkins-common@0.1.6
+  - @qortexone/plugin-jenkins-common@0.1.6
 
 ## 0.1.24-next.3
 
@@ -1640,7 +1640,7 @@
   - @backstage/errors@1.1.0-next.0
   - @backstage/catalog-client@1.0.4-next.1
   - @backstage/plugin-auth-node@0.2.3-next.1
-  - @qortexone-jenkins/jenkins-common@0.1.6-next.0
+  - @qortexone/plugin-jenkins-common@0.1.6-next.0
   - @backstage/plugin-permission-common@0.6.3-next.0
 
 ## 0.1.24-next.0
@@ -1665,7 +1665,7 @@
   - @backstage/catalog-client@1.0.3
   - @backstage/plugin-permission-common@0.6.2
   - @backstage/catalog-model@1.0.3
-  - @qortexone-jenkins/jenkins-common@0.1.5
+  - @qortexone/plugin-jenkins-common@0.1.5
 
 ## 0.1.23-next.2
 
@@ -1687,7 +1687,7 @@
   - @backstage/plugin-auth-node@0.2.2-next.1
   - @backstage/plugin-permission-common@0.6.2-next.0
   - @backstage/catalog-model@1.0.3-next.0
-  - @qortexone-jenkins/jenkins-common@0.1.5-next.0
+  - @qortexone/plugin-jenkins-common@0.1.5-next.0
 
 ## 0.1.23-next.0
 
@@ -1708,7 +1708,7 @@
   - @backstage/plugin-auth-node@0.2.1
   - @backstage/catalog-client@1.0.2
   - @backstage/catalog-model@1.0.2
-  - @qortexone-jenkins/jenkins-common@0.1.4
+  - @qortexone/plugin-jenkins-common@0.1.4
   - @backstage/plugin-permission-common@0.6.1
 
 ## 0.1.22-next.1
@@ -1722,7 +1722,7 @@
   - @backstage/plugin-auth-node@0.2.1-next.1
   - @backstage/plugin-permission-common@0.6.1-next.0
   - @backstage/catalog-client@1.0.2-next.0
-  - @qortexone-jenkins/jenkins-common@0.1.4-next.0
+  - @qortexone/plugin-jenkins-common@0.1.4-next.0
 
 ## 0.1.22-next.0
 
@@ -1746,7 +1746,7 @@
   - @backstage/catalog-model@1.0.1
   - @backstage/plugin-auth-node@0.2.0
   - @backstage/backend-common@0.13.2
-  - @qortexone-jenkins/jenkins-common@0.1.3
+  - @qortexone/plugin-jenkins-common@0.1.3
   - @backstage/catalog-client@1.0.1
 
 ## 0.1.20-next.2
@@ -1766,7 +1766,7 @@
 - ca91107110: Fixed possible type error if jenkins response contains null values
 - Updated dependencies
   - @backstage/plugin-permission-common@0.6.0-next.0
-  - @qortexone-jenkins/jenkins-common@0.1.3-next.1
+  - @qortexone/plugin-jenkins-common@0.1.3-next.1
   - @backstage/backend-common@0.13.2-next.1
 
 ## 0.1.20-next.0
@@ -1779,7 +1779,7 @@
   - @backstage/plugin-auth-node@0.2.0-next.0
   - @backstage/backend-common@0.13.2-next.0
   - @backstage/catalog-client@1.0.1-next.0
-  - @qortexone-jenkins/jenkins-common@0.1.3-next.0
+  - @qortexone/plugin-jenkins-common@0.1.3-next.0
 
 ## 0.1.19
 
@@ -1795,7 +1795,7 @@
   - @backstage/errors@1.0.0
   - @backstage/plugin-permission-common@0.5.3
   - @backstage/plugin-auth-node@0.1.6
-  - @qortexone-jenkins/jenkins-common@0.1.2
+  - @qortexone/plugin-jenkins-common@0.1.2
 
 ## 0.1.18
 
@@ -1806,7 +1806,7 @@
   - @backstage/catalog-model@0.13.0
   - @backstage/catalog-client@0.9.0
   - @backstage/plugin-auth-node@0.1.5
-  - @qortexone-jenkins/jenkins-common@0.1.1
+  - @qortexone/plugin-jenkins-common@0.1.1
 
 ## 0.1.18-next.0
 
@@ -1817,7 +1817,7 @@
   - @backstage/catalog-model@0.13.0-next.0
   - @backstage/catalog-client@0.9.0-next.0
   - @backstage/plugin-auth-node@0.1.5-next.0
-  - @qortexone-jenkins/jenkins-common@0.1.1-next.0
+  - @qortexone/plugin-jenkins-common@0.1.1-next.0
 
 ## 0.1.17
 
@@ -1838,7 +1838,7 @@
   - @backstage/catalog-model@0.12.0
   - @backstage/catalog-client@0.8.0
   - @backstage/backend-common@0.12.0
-  - @qortexone-jenkins/jenkins-common@0.1.0
+  - @qortexone/plugin-jenkins-common@0.1.0
   - @backstage/plugin-permission-common@0.5.2
   - @backstage/plugin-auth-node@0.1.4
 

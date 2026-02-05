@@ -9,7 +9,7 @@
 ### Patch Changes
 
 - Updated dependencies [95d7628]
-  - @qortexone-jenkins/jenkins-common@0.15.0
+  - @qortexone/plugin-jenkins-common@0.15.0
 
 ## 0.16.0
 
@@ -20,7 +20,7 @@
 ### Patch Changes
 
 - Updated dependencies [daa9057]
-  - @qortexone-jenkins/jenkins-common@0.14.0
+  - @qortexone/plugin-jenkins-common@0.14.0
 
 ## 0.15.0
 
@@ -31,7 +31,7 @@
 ### Patch Changes
 
 - Updated dependencies [cac3437]
-  - @qortexone-jenkins/jenkins-common@0.13.0
+  - @qortexone/plugin-jenkins-common@0.13.0
 
 ## 0.14.0
 

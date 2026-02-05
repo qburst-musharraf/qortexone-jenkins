@@ -1,14 +1,14 @@
 {
-  "name": "@qortexone-jenkins/jenkins",
+  "name": "@qortexone/plugin-jenkins",
   "version": "0.1.0",
   "description": "A Backstage plugin that integrates towards Jenkins",
   "backstage": {
     "role": "frontend-plugin",
     "pluginId": "jenkins",
     "pluginPackages": [
-      "@qortexone-jenkins/jenkins",
-      "@qortexone-jenkins/jenkins-backend",
-      "@qortexone-jenkins/jenkins-common"
+      "@qortexone/plugin-jenkins",
+      "@qortexone/plugin-jenkins-backend",
+      "@qortexone/plugin-jenkins-common"
     ]
   },
   "publishConfig": {
@@ -19,11 +19,6 @@
     "./alpha": "./src/alpha.ts",
     "./package.json": "./package.json"
   },
-  "main": "src/index.ts",
-  "types": "src/index.ts",
-  "files": [
-    "dist"
-  ],
   "typesVersions": {
     "*": {
       "alpha": [
@@ -34,13 +29,22 @@
       ]
     }
   },
+  "keywords": [
+    "backstage",
+    "jenkins"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/qburst-musharraf/qortexone-jenkins",
-    "directory": "plugins/jenkins"
+    "directory": "workspaces/jenkins/plugins/jenkins"
   },
   "license": "Apache-2.0",
   "sideEffects": false,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "backstage-cli package build",
     "clean": "backstage-cli package clean",
@@ -51,25 +55,25 @@
     "test": "backstage-cli package test"
   },
   "dependencies": {
-    "@backstage/catalog-model": "^1.7.5",
-    "@backstage/core-compat-api": "^0.5.7",
-    "@backstage/core-components": "^0.18.6",
-    "@backstage/core-plugin-api": "^1.12.2",
-    "@backstage/errors": "^1.2.7",
-    "@backstage/frontend-plugin-api": "^0.13.4",
-    "@backstage/plugin-catalog-react": "^1.19.1",
+    "@backstage/catalog-model": "backstage:^",
+    "@backstage/core-compat-api": "backstage:^",
+    "@backstage/core-components": "backstage:^",
+    "@backstage/core-plugin-api": "backstage:^",
+    "@backstage/errors": "backstage:^",
+    "@backstage/frontend-plugin-api": "backstage:^",
+    "@backstage/plugin-catalog-react": "backstage:^",
     "@material-ui/core": "^4.12.2",
     "@material-ui/icons": "^4.9.1",
-    "@qortexone-jenkins/jenkins-common": "workspace:^",
+    "@qortexone/plugin-jenkins-common": "workspace:^",
     "@types/react": "^16.13.1 || ^17.0.0 || ^18.0.0",
     "luxon": "^3.0.0",
     "react-use": "^17.2.4"
   },
   "devDependencies": {
-    "@backstage/cli": "^0.33.1",
-    "@backstage/dev-utils": "^1.1.19",
-    "@backstage/frontend-test-utils": "^0.4.5",
-    "@backstage/test-utils": "^1.7.14",
+    "@backstage/cli": "backstage:^",
+    "@backstage/dev-utils": "backstage:^",
+    "@backstage/frontend-test-utils": "backstage:^",
+    "@backstage/test-utils": "backstage:^",
     "@testing-library/dom": "^10.0.0",
     "@testing-library/jest-dom": "^6.0.0",
     "@testing-library/react": "^15.0.0",

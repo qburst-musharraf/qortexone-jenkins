@@ -1,6 +1,6 @@
 'use strict';
 
-var jenkinsCommon = require('@qortexone-jenkins/jenkins-common');
+var pluginJenkinsCommon = require('@qortexone/plugin-jenkins-common');
 var pluginPermissionCommon = require('@backstage/plugin-permission-common');
 var fetch = require('node-fetch');
 
@@ -128,7 +128,7 @@ class JenkinsApiImpl {
   async rebuildProject(jenkinsInfo, jobs, buildNumber, resourceRef, options) {
     if (this.permissionApi) {
       const response2 = await this.permissionApi.authorize(
-        [{ permission: jenkinsCommon.jenkinsExecutePermission, resourceRef }],
+        [{ permission: pluginJenkinsCommon.jenkinsExecutePermission, resourceRef }],
         { credentials: options.credentials }
       );
       const { result } = response2[0];
@@ -145,7 +145,7 @@ class JenkinsApiImpl {
   }
   // private helper methods
   static async getClient(jenkinsInfo) {
-    return new jenkinsCommon.Jenkins({
+    return new pluginJenkinsCommon.Jenkins({
       baseUrl: jenkinsInfo.baseUrl,
       headers: jenkinsInfo.headers,
       promisify: true,

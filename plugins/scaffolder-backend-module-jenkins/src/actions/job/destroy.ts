@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 import { createTemplateAction } from '@backstage/plugin-scaffolder-node';
-import { Jenkins } from '@qortexone-jenkins/jenkins-common';
+import { Jenkins } from '@qortexone/plugin-jenkins-common';
 
 /**
  * This destroyJob function, deletes a job given a job name

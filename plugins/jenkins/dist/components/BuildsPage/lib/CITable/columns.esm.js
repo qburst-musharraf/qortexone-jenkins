@@ -12,7 +12,7 @@ import HistoryIcon from '@material-ui/icons/History';
 import { useState } from 'react';
 import { jobRunsRouteRef, buildRouteRef } from '../../../../plugin.esm.js';
 import { JenkinsRunStatus } from '../Status/JenkinsRunStatus.esm.js';
-import { jenkinsExecutePermission } from '@qortexone-jenkins/jenkins-common';
+import { jenkinsExecutePermission } from '@qortexone/plugin-jenkins-common';
 
 const FailCount = ({ count }) => {
   if (count !== 0) {

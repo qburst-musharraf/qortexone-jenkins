@@ -1,4 +1,4 @@
-# @qortexone-jenkins/jenkins-common
+# @qortexone/plugin-jenkins-common
 
 ## 0.15.0
 

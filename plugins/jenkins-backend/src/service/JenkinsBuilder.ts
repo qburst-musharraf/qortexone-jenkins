@@ -33,7 +33,7 @@ import {
 
 import { Config } from '@backstage/config';
 import { createPermissionIntegrationRouter } from '@backstage/plugin-permission-node';
-import { jenkinsPermissions } from '@qortexone-jenkins/jenkins-common';
+import { jenkinsPermissions } from '@qortexone/plugin-jenkins-common';
 
 /** @public */
 export type JenkinsBuilderReturn = Promise<{
