@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkapp=self.webpackChunkapp||[]).push([["7522"],{30041(a,e,s){s.d(e,{CatalogEntityPage:()=>c});var n=s(31085),p=s(18690),t=s(16400),u=s(23777);function c(){return(0,n.jsx)(t.T7,{...(0,u.W)(),children:(0,n.jsx)(p.sv,{})})}}}]);
+//# sourceMappingURL=7522.e3c142a0.chunk.js.map
