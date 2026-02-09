@@ -1,7 +1,0 @@
-"use strict";(self.webpackChunkapp=self.webpackChunkapp||[]).push([["8620"],{2711(t,e,a){a.d(e,{EntityLinksCard:()=>b});var n=a(31085),i=a(16400),r=a(23127),s=a(64947),l=a(72501),o=a(58837),d=a(62112),c=a(47250),m=a(58045);let h=`metadata:
-  name: example
-  links:
-    - url: https://dashboard.example.com
-      title: My Dashboard
-      icon: dashboard`,p=(0,o.A)(t=>({code:{borderRadius:6,margin:t.spacing(2,0),background:"dark"===t.palette.type?"#444":t.palette.common.white}}),{name:"PluginCatalogEntityLinksEmptyState"});function u(){let t=p(),{t:e}=(0,c.i)(m.W);return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(l.A,{variant:"body1",children:e("entityLinksCard.emptyDescription")}),(0,n.jsx)("div",{className:t.code,children:(0,n.jsx)(d.z,{text:h,language:"yaml",showLineNumbers:!0,highlightedNumbers:[3,4,5,6],customStyle:{background:"inherit",fontSize:"115%"}})}),(0,n.jsx)(s.A,{variant:"contained",color:"primary",target:"_blank",href:"https://backstage.io/docs/features/software-catalog/descriptor-format#links-optional",children:e("entityLinksCard.readMoreButtonTitle")})]})}var k=a(81409),g=a(95208),y=a(21332);let b=t=>{let{cols:e,variant:a}=t,{entity:s}=(0,i.tN)(),l=(0,g.n)(),{t:o}=(0,c.i)(m.W),d=s?.metadata?.links;return(0,n.jsx)(y.n,{title:o("entityLinksCard.title"),variant:a,children:d&&0!==d.length?(0,n.jsx)(k.m,{cols:e,items:d.map(({url:t,title:e,icon:a})=>({text:e??t,href:t,Icon:a?l.getSystemIcon(a)??r.default:r.default}))}):(0,n.jsx)(u,{})})}}}]);
-//# sourceMappingURL=8620.c52847fd.chunk.js.map

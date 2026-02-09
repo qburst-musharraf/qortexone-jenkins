@@ -40,6 +40,7 @@ node_modules/
 .env.test
 
 # Build output
+dist
 dist-types
 
 # Temporary change files created by Vim

@@ -1,7 +1,7 @@
 {
   "name": "@qortexone/plugin-jenkins",
-  "version": "0.1.0",
-  "description": "A Backstage plugin that integrates towards Jenkins",
+  "version": "0.28.0",
+  "description": "A Backstage plugin that integrates towards QortexOne IDP Jenkins",
   "backstage": {
     "role": "frontend-plugin",
     "pluginId": "jenkins",
@@ -40,8 +40,8 @@
   },
   "license": "Apache-2.0",
   "sideEffects": false,
-  "main": "dist/index.esm.js",
-  "types": "dist/index.d.ts",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
   "files": [
     "dist"
   ],

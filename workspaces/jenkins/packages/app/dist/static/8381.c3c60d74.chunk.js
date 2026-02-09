@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkapp=self.webpackChunkapp||[]).push([["8381"],{81324(p,a,e){e.d(a,{AboutCard:()=>s.E});var s=e(79744)}}]);
