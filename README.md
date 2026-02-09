@@ -1,7 +1,3 @@
-# QortexOne Plugins
+# Jenkins Common
 
-Backstage plugins, custom and forked from other plugins live here. These are tailored to QortexOne use cases.
-
-## Contributing a plugin
-
-## Community Plugins Workflow
+Shared isomorphic code for the Jenkins plugin.
