@@ -1,54 +1,48 @@
 {
-  "name": "@qortexone-plugins/plugins",
-  "private": true,
-  "version": "0.0.0",
-  "repository": "git@github.com:musharraf/qortexone-plugins.git",
-  "engines": {
-    "node": "20 || 22"
-  },
-  "scripts": {
-    "changeset": "echo 'Error: Please run yarn changeset from a workspace directory, not the root.' && exit 1",
-    "create-workspace": "community-cli workspace create",
-    "postinstall": "husky",
-    "prettier:check": "prettier --check .",
-    "prettier:fix": "prettier --write ."
-  },
-  "type": "module",
-  "packageManager": "yarn@4.12.0",
-  "devDependencies": {
-    "@backstage-community/cli": "portal:./workspaces/repo-tools/packages/cli",
-    "@backstage/cli": "^0.32.0",
-    "@backstage/cli-node": "^0.2.13",
-    "@backstage/config": "^1.3.6",
-    "@backstage/errors": "^1.2.7",
-    "@changesets/parse": "^0.4.0",
-    "@manypkg/get-packages": "^2.2.2",
-    "@octokit/rest": "^20.1.1",
-    "@spotify/eslint-plugin": "^15.0.0",
-    "array-to-table": "^1.0.1",
-    "axios": "^1.13.2",
-    "codeowners-utils": "^1.0.2",
-    "eslint": "^8.6.0",
-    "eslint-plugin-notice": "^0.9.10",
-    "eslint-plugin-react": "^7.28.0",
-    "eslint-plugin-testing-library": "^6.0.0",
-    "fs-extra": "11.3.3",
-    "husky": "^9.0.11",
-    "js-yaml": "^4.1.0",
-    "lint-staged": "^16.0.0",
-    "lodash.escaperegexp": "^4.1.2",
-    "node-fetch": "^2.6.7",
-    "prettier": "^2.3.2",
-    "semver": "^7.7.2"
-  },
-  "prettier": "@backstage/cli/config/prettier",
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx,mjs,cjs}": [
-      "eslint --fix",
-      "prettier --write"
-    ],
-    "*.{json,md}": [
-      "prettier --write"
+  "name": "@qortexone/plugin-jenkins-common",
+  "version": "0.16.0",
+  "backstage": {
+    "role": "common-library",
+    "pluginId": "jenkins",
+    "pluginPackages": [
+      "@qortexone/plugin-jenkins",
+      "@qortexone/plugin-jenkins-backend",
+      "@qortexone/plugin-jenkins-common"
     ]
+  },
+  "publishConfig": {
+    "access": "public",
+    "main": "dist/index.cjs.js",
+    "module": "dist/index.esm.js",
+    "types": "dist/index.d.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qburst-musharraf/qortexone-jenkins",
+    "directory": "workspaces/jenkins/plugins/jenkins-common"
+  },
+  "license": "Apache-2.0",
+  "sideEffects": false,
+  "main": "dist/index.cjs.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "backstage-cli package build",
+    "clean": "backstage-cli package clean",
+    "lint": "backstage-cli package lint",
+    "prepack": "backstage-cli package prepack",
+    "postpack": "backstage-cli package postpack",
+    "test": "backstage-cli package test"
+  },
+  "dependencies": {
+    "@backstage/plugin-catalog-common": "^1.1.5",
+    "@backstage/plugin-permission-common": "^0.9.5",
+    "form-data": "^4.0.4",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "@backstage/cli": "^0.33.1"
   }
 }
