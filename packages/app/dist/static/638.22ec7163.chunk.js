@@ -1,3 +1,0 @@
-"use strict";(()=>{(self.webpackChunkapp=self.webpackChunkapp||[]).push([[638],{40638(v,a,s){s.d(a,{HasSubcomponentsCard:()=>l});var e=s(31085),o=s(97214),m=s(5519),t=s(15669),p=s(58045),i=s(47250);function l(r){const{t:n}=(0,i.i)(p.W),{variant:d="gridItem",title:c=n("hasSubcomponentsCard.title"),columns:u=t.mz,tableOptions:f={},kind:C="Component"}=r;return(0,e.jsx)(m.p,{variant:d,title:c,entityKind:C,relationType:o.sA,columns:u,asRenderableEntities:t.xJ,emptyMessage:n("hasSubcomponentsCard.emptyMessage"),emptyHelpLink:"https://backstage.io/docs/features/software-catalog/descriptor-format#specsubcomponentof-optional",tableOptions:f})}}}]);})();
-
-//# sourceMappingURL=638.22ec7163.chunk.js.map
