@@ -32,10 +32,7 @@
   "scripts": {
     "build": "backstage-cli package build",
     "clean": "backstage-cli package clean",
-    "lint": "backstage-cli package lint",
-    "prepack": "backstage-cli package prepack",
-    "postpack": "backstage-cli package postpack",
-    "test": "backstage-cli package test"
+    "lint": "backstage-cli package lint"
   },
   "dependencies": {
     "@backstage/plugin-catalog-common": "^1.1.7",
