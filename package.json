@@ -66,7 +66,7 @@
     "test": "backstage-cli package test"
   },
   "dependencies": {
-    "@backstage-community/plugin-jenkins-common": "^0.16.0",
+    "@qortexone/plugin-jenkins-common": "https://github.com/qburst-musharraf/qortexone-jenkins#release-common",
     "@backstage/catalog-model": "^1.7.6",
     "@backstage/core-compat-api": "^0.5.7",
     "@backstage/core-components": "^0.18.6",
